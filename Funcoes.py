@@ -3,14 +3,14 @@ import FuncoesMath
 def showDevs():
     print("")
     print("----Desenvolvedores---")
-    print("igor de Araujo - RA:")
+    print("igor de Araujo - RA: 22.223.006-2")
     print("Gabriel Afonso - RA:")
     print("Gustavo Trovo - RA:")
     print("")
 
 def showOp():
     while True: 
-        print("--Menu de Exercicios--")
+        print("-- Menu de Exercicios --")
         print("Selecione a opcao com base nos valores oferecidos pelo exercicio:")
         print("")
         print("5 - Ex com campo magnetico")

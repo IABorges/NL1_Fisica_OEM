@@ -1,5 +1,5 @@
 import math
-
+# completar com operações fisicas
 def opFrequencia():
     print("em construção")
 def opCompOnda():

@@ -2,7 +2,7 @@ import Funcoes
 
 print("Bem Vindo!")
 print("Este programa é dedicado ao Estudo de Ondas Eletromageneticas e foi desenvolvido por:")
-print("igor de Araujo - RA:")
+print("igor de Araujo - RA: 22.223.006-2")
 print("Gabriel Afonso - RA:")
 print("Gustavo Trovo - RA:")
 
