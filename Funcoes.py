@@ -27,6 +27,12 @@ def showOp():
         elif i == 1:
             FuncoesMath.opFrequencia()
         elif i == 2:
-            break
+            FuncoesMath.opCompOnda()
+        elif i == 3:
+            FuncoesMath.opNumOnda()
+        elif i == 4:
+            FuncoesMath.opFreAng()
+        elif i == 5:
+            FuncoesMath.opCampMag()
         else:
             print("Opação invalida")

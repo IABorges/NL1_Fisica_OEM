@@ -7,7 +7,7 @@ print("Gabriel Afonso - RA:")
 print("Gustavo Trovo - RA:")
 
 while True: 
-    print("--Menu--")
+    print("--Menu Principal --")
     print("2 - Fazer Exercicios")
     print("1 - Desenvolvedores")
     print("0 - Sair")

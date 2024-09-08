@@ -10,9 +10,9 @@ def opFreAng():
     print("em construção")
 def opCampMag():
     while True: 
-        print("--Menu--")
-        print("2 - Fazer Exercicios")
-        print("1 - Desenvolvedores")
+        print("--Menu de Campo Magnetico--")
+        print("2 -")
+        print("1 - ")
         print("0 - Sair")
 
         i = int(input(""))
