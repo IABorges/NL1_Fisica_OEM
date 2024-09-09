@@ -1,9 +1,13 @@
 import math
 
 c = 3.00e8 # velocidadefloat
+u0 = 4 * math.pi * 1e-7
 # lambda = c/frequencia
 # numero de onda(k) = 2PI/ lambda
 # frequencia Angular(w) = 2PI * frequencia
+# Em = c*Bm
+#I = (Em ** 2)/ (2*u0*c) 
+
 # completar com operações fisicas
 
 
@@ -76,19 +80,37 @@ def opFreAng():
     print(f"Frequência (f): {f:.4e} Hz")
     
 def opCampMag():
-    while True: 
-        print("--Menu de Campo Magnetico--")
-        print("2 -")
-        print("1 - ")
-        print("0 - Sair")
+    print("Campo Magnetico (Bm)")
+    print("")
 
-        i = int(input(""))
+    Bm = float(input("Digite o valor da amplitude do campo magnetico:"))
+    # tem que haver alguma conversao de dados, ex: uT para T ou vice versa
+    Em = c*Bm
+    I = (Em **2)/(2*u0*c)
 
-        if i == 0:  
-            break
-        elif i == 1:
-            print("em construção")
-        elif i == 2:
-            print("em construção")
-        else:
-            print("Opação invalida")
+    print("\nResultados:")
+    print(f"Amplitude do campo elétrico (Em): {Em:.4e} V/m")
+    print(f"Intensidade da onda (I): {I:.4e} W/m²")
+
+def opCampEle():
+    print("Campo Eletrico")
+    print("")
+    Em = float(input("Digite o valor da amplitude do campo eletrico:"))
+
+    Bm = Em/c
+    I = (Em **2)/(2*u0*c)
+    print("\nResultados:")
+    print(f"Amplitude do campo Magnetico (Bm): {Bm:.4e} T")
+    print(f"Intensidade da onda (I): {I:.4e} W/m²")
+
+def opInt():
+    print("Intensidade da Onda")
+    print("")
+    I = float(input("Digite o valor da Intensidade da onda:"))
+
+    Em = math.sqrt((I * 2*u0*c))
+    Bm = Em/c
+    print("\nResultados:")
+    print(f"Amplitude do campo elétrico (Em): {Em:.4e} V/m")
+    print(f"Amplitude do campo Magnetico (Bm): {Bm:.4e} T")
+

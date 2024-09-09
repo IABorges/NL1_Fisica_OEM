@@ -33,6 +33,27 @@ def showOp():
         elif i == 4:
             FuncoesMath.opFreAng()
         elif i == 5:
-            FuncoesMath.opCampMag()
+            while True: 
+                print("--Menu de Campo Magnetico--")
+                print("Selecione a opcao com base nos valores oferecidos pelo exercicio:")
+                print("")
+                print("3 - Intesidade da Onda (I)")
+                print("2 - Amplitude do Campo Eletrico (Em)")
+                print("1 - Amplitude do campo Magnetico (Bm) ")
+                print("0 - Sair")
+
+                i = int(input(""))
+
+                if i == 0:  
+                    break
+                elif i == 1:
+                    FuncoesMath.opCampMag()
+                elif i == 2:
+                    FuncoesMath.opCampEle()
+                elif i == 3:
+                    FuncoesMath.opInt()
+
+                else:
+                    print("Opação invalida")
         else:
             print("Opação invalida")
