@@ -1,8 +1,6 @@
 
 import math
 
-import math
-
 c = 3.00e8 # velocidadefloat
 u0 = 4 * math.pi * 1e-7
 # lambda = c/frequencia
