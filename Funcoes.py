@@ -4,8 +4,8 @@ def showDevs():
     print("")
     print("----Desenvolvedores---")
     print("igor de Araujo - RA: 22.223.006-2")
-    print("Gabriel Afonso - RA:")
-    print("Gustavo Trovo - RA:")
+    print("Gabriel Afonso - RA: 22.223.001-3")
+    print("Gustavo Trovo - RA: 22.223.018-7")
     print("")
 
 def showOp():
